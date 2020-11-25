@@ -1,0 +1,41 @@
+{
+  "name": "retail-mgt-sca",
+  "version": "1.0.0",
+  "description": "Retail Management System using EJS, Node and Express, Mongo for SCA",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bell Omuboye",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.7",
+    "@babel/core": "^7.12.7",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/register": "^7.12.1",
+    "@babel/runtime": "^7.12.5",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cookie-parser": "~1.4.4",
+    "coveralls": "^3.1.0",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "eslint": "^7.14.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mocha": "^8.2.1",
+    "mongoose": "^5.10.15",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.6",
+    "nyc": "^15.1.0",
+    "prettier": "^2.2.0",
+    "sinon": "^9.2.1",
+    "sinon-chai": "^3.5.0",
+    "supertest": "^6.0.1"
+  }
+}
